@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cool-text {
+        font-size: 50px;
+        font-weight: bold;
+        background: linear-gradient(to right, purple, blue, cyan);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .note {
+        background-color: white;
+        padding: 20px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .glow-txt {
+        background-color: black;
+      }
+      .glow {
+        color: cyan;
+        font-size: 50px;
+        text-align: center;
+
+        text-shadow:
+          0px 0px 5px cyan,
+          0px 0px 10px cyan,
+          0px 0px 20px cyan;
+      }
+      .quote{
+    border-left: 8px solid orange;
+    background-color: #fff3e0;
+    padding: 20px;
+    width: 500px;
+
+    font-size: 22px;
+    font-style: italic;
+}
+.hover-text{
+    font-size: 40px;
+    transition: 0.4s;
+    width: fit-content;
+}
+
+.hover-text:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.typewriter{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+
+    width: 0;
+
+    animation:
+    typing 4s steps(30) forwards,
+    blink 0.7s infinite;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.glass-effect
+{
+  background: linear-gradient(to right, #667eea, #764ba2);
+    height: 10vh;
+}
+.glass{
+    width: 400px;
+
+    padding: 20px;
+
+    background: rgba(255,255,255,0.2);
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+
+    color: white;
+
+    font-size: 20px;
+}
+.highlight{
+    background-color: yellow;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.caption{
+    width: 350px;
+
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+
+    font-size: 18px;
+}
+
+.username{
+    font-weight: bold;
+    color: blue;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <p class="note">
+      Learning HTML and CSS is like learning how to design digital buildings.
+    </p>
+    <p class="cool-text">Welcome To Web Development</p>
+    <div class="glow-txt">
+      <p class="glow">CYBER WORLD</p>
+    </div>
+
+<p class="quote">
+    "Small daily improvements are the key to long term success."
+</p>
+
+<p class="hover-text">
+    Hover Over Me
+</p>
+
+
+
+<p class="typewriter">
+    Learning CSS makes websites come alive.
+</p>
+
+<div class="glass-effect">
+
+    <p class="glass">
+        This is a modern glass effect card using CSS.
+    </p>
+</div>
+
+
+<p>
+    HTML creates the structure while 
+    <span class="highlight">CSS adds beauty</span>.
+</p>
+<p class="caption">
+    <span class="username">@sadeedguide</span><br><br>
+
+    Building projects is the fastest way to learn coding.
+</p>
+
+  </body>
+</html>
