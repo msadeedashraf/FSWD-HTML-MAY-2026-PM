@@ -1,0 +1,25 @@
+
+        body{
+            background-color: rgb(243, 239, 233);
+        }
+        h1{
+            color:rgb(214, 118, 27)
+        }
+        h2{
+            background-color: rgb(243, 243, 74);
+        }
+        p
+        {
+            font-style: italic;
+            text-align: right;
+        }
+        table, th, td {
+            border: 1px solid;
+            border-radius: 10px;
+        }
+        th{
+            background-color: rgb(153, 153, 244);
+        }
+        
+
+   
