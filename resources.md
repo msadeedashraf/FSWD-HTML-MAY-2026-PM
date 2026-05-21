@@ -59,6 +59,10 @@ Also useful for responsive designs.
 
 # Codepen Examples
 
+### CSS Grid - Photo Collage
+
+[CSS Grid - Photo Collage](https://codepen.io/optimisticweb/pen/XJrKoGY)
+
 ### Netflix Project
 
 [Netflix Demo on CodePen](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
@@ -83,6 +87,8 @@ Also useful for responsive designs.
 ✅ See the full detailed steps and CSS snippets in the [Markdown Guide](./assets/project-md/NetflixCloneGuide.md).
 
 </details>
+
+
 
 
 ### Nutrition Facts Project
