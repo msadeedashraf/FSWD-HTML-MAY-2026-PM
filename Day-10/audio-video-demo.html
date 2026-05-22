@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Audio and Video Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h1, h2 {
+      color: #1f2937;
+    }
+
+    audio, video, iframe {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    iframe {
+      height: 420px;
+      border: none;
+    }
+
+    .note {
+      background: #eef6ff;
+      padding: 12px;
+      border-left: 5px solid #2563eb;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Learning HTML Audio and Video</h1>
+
+    <section>
+      <h2>1. Audio Example: Public Domain Audiobook</h2>
+      <p>
+        This example uses a public domain audiobook from LibriVox / Internet Archive.
+      </p>
+
+      <audio controls>
+        <source src="https://archive.org/download/alices_adventures_1003_librivox/alicesadventures_01_carroll_64kb.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="note">
+        <strong>Teaching point:</strong> The <code>controls</code> attribute gives the user play, pause, volume, and progress controls.
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Video Example: Local Video File</h2>
+      <p>
+        This is how we would add our own video file to a webpage.
+      </p>
+
+      <video controls poster="thumbnail.jpg">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+
+      <div class="note">
+        <strong>Teaching point:</strong> The video file must exist in your project folder, or the path must point to a real online video file.
+      </div>
+    </section>
+
+    <section>
+      <h2>3. YouTube Playlist Example</h2>
+      <p>
+        This embeds a YouTube playlist using an iframe.
+      </p>
+
+      <iframe 
+        src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID"
+        title="YouTube Playlist"
+        allowfullscreen>
+      </iframe>
+
+      <div class="note">
+        Replace <code>YOUR_PLAYLIST_ID</code> with the actual playlist ID from YouTube.
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Music Reminder</h2>
+      <p>
+        Do not randomly download songs from YouTube and use them in projects. Use copyright-safe music from sources like YouTube Audio Library, Pixabay Music, Free Music Archive, or public domain collections.
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
